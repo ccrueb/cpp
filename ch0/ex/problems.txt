@@ -1,0 +1,13 @@
+1. This statement adds 3 + 4 but then discards the results at the semicolon and it has no side effects.
+
+3. It seems to produce 4 spaces
+
+5. This is not a valid program. The main function is malformed it needs {}
+
+6. Interestingly yes this is valid. It seems an statement or block can be wrapped in {} an arbitrary number of times.
+
+7. No, what happens is the multiline comment ends itself too early leaving the rest of the comment hanging as "real" code that is invalid.
+
+8. Interestingly this also seems to be valid. Since the start of the "multi" comment is in a comment it is ignored and so of course the closing one is as well.
+
+9. int main(){}

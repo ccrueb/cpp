@@ -1,0 +1,27 @@
+1. Yes these two statements follow the rules.
+
+2. Yes these two statements follow the rules.
+
+3. This is vaid
+  > a string
+  > another string
+
+4. No we are trying to declare the string 's' twice in the same scope. Changing the braces shouldn't matter.
+
+INCORRECT. Nested scope allows you to redefine variable names from a parent scope
+
+5. No x is out of scope
+
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string s = "a string";
+    std::string x = s + ", really?";
+    std::cout << s << std::endl;
+    std::cout << x << std::endl;
+
+    return 0; 
+} 
+
+6. It splits the name into two since cin reads until whitespace.
